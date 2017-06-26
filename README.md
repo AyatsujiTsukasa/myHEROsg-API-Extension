@@ -15,3 +15,4 @@ This extension helps you test myHEROsg algorithm API
 ## Usage
 
 > Click the extension icon to launch it. Enter the symptoms from the upper box, click send, and you will receive the response in seconds, displayed in the lower box.
+> ![image](product.png "chrome extension")
