@@ -6,6 +6,12 @@
 </head>
 <body>
 <textarea id="complaint" rows="6", cols="40" placeholder="Enter Symptoms Here"></textarea>
+<label>Filter: </label>
+<input type="radio" name="filter" id="filter" value="false" checked="checked"> false
+<input type="radio" name="filter" id="filter" value="true"> true<br>
+<label>Mode: </label>
+<input type="radio" name="mode" id="mode" value="mer" checked="checked"> mer
+<input type="radio" name="mode" id="mode" value="sm"> sm<br>
 <input type="button" name="send" value="Send" id="send">
 <textarea id="result" rows="6", cols="40" readonly="readonly"></textarea>
 <script type="text/javascript" src="request.js"></script>
